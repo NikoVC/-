@@ -1,36 +1,46 @@
-.produkt1{
-    text-align: center;
-    border: 2px black solid;
-    border-radius: 5px;
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
 }
-.produkt2{
-    text-align: center;
-    border: 2px black solid;
-    
+.Container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 8%;
+    margin-left: 15%;
 }
-.produkt3{
-    text-align: center;
-    border: 2px black solid;
-    
+
+.Produkt{
+    background-color: blue;
+    border: 20px blue solid;
+    border-width: 20px;
+    margin-right: 6%;
+    margin-left: 2%;
 }
-.produkt4{
-    text-align: center;
-    border: 2px black solid;
-    
-}
-.produkt5{
-    text-align: center;
-    border: 2px black solid;
-    
-}
-.produkt6{
-    text-align: center;
-    border: 2px black solid;
-    
+
+.Price{
+    background-color: black;
+    color: white;
+    margin-right: 9%;
+    margin-left: 9%;
 }
 
 #Rubrik{
     text-align: center;
-    border: 2px black solid;
+    background-color: white;
+    border: 5px black solid;
     border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-width: 5px;
+}
+
+body{
+    background-image: url("./Img/WebPage.webp");
+    background-size: 200px 100px;
 }
